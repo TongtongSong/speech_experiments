@@ -154,12 +154,9 @@ def get_mfcc(fbank,n_mfcc):
 
 def get_envelope(frame):
     log_mag_spectrum = np.log(np.abs(np.fft.rfft(frame)))
-    cepstrum = np.fft.irfft(log_mag_spectrum)
-    win_len = 6
-    win = np.ones(frame_len)
-    win[win_len:frame_len-win_len+1] = 0
-    cepstrum = cepstrum*win
-    envelope = np.real(np.fft.rfft(cepstrum))
+    """
+        TODO
+    """
     return log_mag_spectrum,envelope
 
 def main():

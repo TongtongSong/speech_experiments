@@ -1,6 +1,7 @@
 # 实验01
 ## 实验内容
-通过补全预加重、分帧、加窗、快速傅里叶变换、求取滤波器组、离散余弦变换等代码，熟悉语音信号处理的相关内容，对语音特征提取的步骤进行掌握。  
+通过补全预加重、分帧、加窗、快速傅里叶变换、求取滤波器组、离散余弦变换等代码，熟悉语音信号处理的相关内容，对语音特征提取的步骤进行掌握。 
+此外求取频谱包络为选做实验。
 运行成功后生成的图片会保存在result文件夹下。
 ## 环境依赖
 ### python环境
@@ -13,8 +14,7 @@ matplotlib
 ## 文件说明
 feature_extractor.py 特征提取代码  
 test.wav 测试音频  
-README.md 说明文件  
-requirements.txt 代码依赖列表
+README.md 说明文件
 
 ## 参考
 [1] [python_speech_features [github]](https://github.com/jameslyons/python_speech_features.git)  
