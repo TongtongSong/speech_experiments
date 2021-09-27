@@ -129,7 +129,7 @@ if __name__ == '__main__':
     result_path = './result'
     if not os.path.exists(result_path):
         os.mkdir(result_path)
-    logger = init_logger(log_file='result/hmm.log')
+    logger = init_logger(log_file='result/gmm.log')
     class_items = ['Z', 'O', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     K = 3 # gaussian numbers of one class
     epochs = 3
