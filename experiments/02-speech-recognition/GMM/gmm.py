@@ -1,16 +1,29 @@
 # HMM Algorithm
 # Author: songtongmail@163.com (Tongtong Song (TJU))
 # Date: 2021/09/04 16:00
-# Last modified: 2021/09/27 11:11
-
+# Last modified: 2021/09/27 17:31
+import os
 import numpy as np
 import scipy.cluster.vq as vq
 
 from utils import Dataloader, get_feats,get_all_feats,extract_feat
 
 import logging
-logging.basicConfig(level=logging.NOTSET,
-                    format='[%(asctime)s %(levelname)s] %(message)s')
+def init_logger(log_file=None):
+    log_format = logging.Formatter("[%(asctime)s %(levelname)s] %(message)s")
+    logger = logging.getLogger()
+    logger.setLevel(logging.INFO)
+
+    console_handler = logging.StreamHandler()
+    console_handler.setFormatter(log_format)
+    logger.handlers = [console_handler]
+
+    if log_file and log_file != '':
+        file_handler = logging.FileHandler(log_file)
+        file_handler.setFormatter(log_format)
+        logger.addHandler(file_handler)
+
+    return logger
 class GMM:
     def __init__(self,K, feats):
         super().__init__()
@@ -53,6 +66,7 @@ class GMM:
 
     def log_likelihood(self, feats):
         N = len(feats)
+        # E step
         gamma = np.zeros((N, self.K))
         """
             TODO
@@ -69,12 +83,12 @@ class GMM:
         # E step
         gamma = np.zeros((N, self.K))
         """
-            TODO
+             TODO
         """
 
         # M step
         """
-            TODO
+             TODO
         """
         return self.log_likelihood(feats)
 
@@ -82,10 +96,10 @@ class GMM:
 def train(gmms, class2utt, utt2wav, epochs, class_items):
     for class_ in class_items:
         feats = get_feats(class_, class2utt, utt2wav)
-        logging.info('Class:{} Initial llh:{:.6f}'.format(class_, gmms[class_].log_likelihood(feats)))
+        logger.info('Class:{} Initial llh:{:.6f}'.format(class_, gmms[class_].log_likelihood(feats)))
         for epoch in range(epochs):
             llh = gmms[class_].EM(feats)
-            logging.info('Class:{} Train Epoch[{}/{}]:{:.6f}'.format(class_, epoch, epochs, llh))
+            logger.info('Class:{} Train Epoch[{}/{}]:{:.6f}'.format(class_, epoch, epochs, llh))
     return gmms
 
 
@@ -105,13 +119,17 @@ def test(gmms, class2utt, utt2wav, class_items):
         for class_ in class_items:
             scores.append(gmms[class_].log_likelihood(feats))
         pred_class = class_items[np.argmax(np.array(scores))]
-        logging.info('Test[{}/{}]-True:{}'.format(idx, N,true_class))
-        logging.info('Test[{}/{}]-Pred:{}'.format(idx, N, pred_class))
+        logger.info('Test[{}/{}]-True:{}'.format(idx, N,true_class))
+        logger.info('Test[{}/{}]-Pred:{}'.format(idx, N, pred_class))
         if pred_class == true_class:
             correct += 1
     return correct / N
 
 if __name__ == '__main__':
+    result_path = './result'
+    if not os.path.exists(result_path):
+        os.mkdir(result_path)
+    logger = init_logger(log_file='result/hmm.log')
     class_items = ['Z', 'O', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     K = 3 # gaussian numbers of one class
     epochs = 3
@@ -123,6 +141,6 @@ if __name__ == '__main__':
     gmms = train(gmms, class2utt, utt2wav, epochs, class_items)
     class2utt, utt2wav = Dataloader('data/test/wav.scp', 'data/test/text')
     acc = test(gmms, class2utt, utt2wav, class_items)
-    logging.info('ACC:{:.3f}'.format(acc))
+    logger.info('ACC:{:.3f}'.format(acc))
 
 
