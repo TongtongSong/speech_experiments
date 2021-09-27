@@ -19,5 +19,5 @@ README.md 说明文件
 ## 参考
 [1] [python_speech_features [github]](https://github.com/jameslyons/python_speech_features.git)  
 [2] [torchaudio.compliance.kaldi [官方文档]](https://pytorch.org/audio/stable/_modules/torchaudio/compliance/kaldi.html#spectrogram)  
-[3] [【语音-01】Fbank和MFCC介绍-理论和代码 [博客园]](https://www.cnblogs.com/yifanrensheng/p/13510742.html#_label4_0)
+[3] [【语音-01】Fbank和MFCC介绍-理论和代码 [博客园]](https://www.cnblogs.com/yifanrensheng/p/13510742.html#_label4_0)  
 [4] [提取语音频谱包络步骤及matlab代码参考 [CSDN]](https://blog.csdn.net/weixin_42069606/article/details/120503503)
