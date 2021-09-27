@@ -44,10 +44,8 @@ class GMM:
         inv_sigma = np.linalg.inv(sigma)
         x_diff = x-mu # D x 1
 
-        """
-            TODO
-        """
-
+        coeff = 1/((2 * np.pi) ** (self.D/2))
+        prob = coeff * det_sigma**(-0.5) * np.exp(-0.5*(np.dot(x_diff.T,inv_sigma).dot(x_diff)))
         prob = np.nan_to_num(prob)
         if prob==0:
             prob = np.finfo(float).eps
