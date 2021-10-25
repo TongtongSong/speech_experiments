@@ -23,6 +23,6 @@ SDR的计算方法
 &nbsp;&nbsp;--clean_mul_170.wav\
 --mixture  混合多通道音频\
 &nbsp;&nbsp;--clean_20_steadyNoise_10.wav  20人声角度20 steadynoise稳态噪声 10噪声角度10 \
-&nbsp;&nbsp;... 
+&nbsp;&nbsp;... \
 --noise 多通道噪声音频\
-&nbsp;&nbsp;--steadynoise_mul_10.wav \
+&nbsp;&nbsp;--steadynoise_mul_10.wav 
