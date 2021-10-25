@@ -5,14 +5,14 @@
 ### python环境
 python
 ### 安装包依赖
-pytorch
-pyyaml
-soundfile
-python_speech_features
-scipy
-librosa
+pytorch  
+pyyaml  
+soundfile  
+python_speech_features  
+scipy  
+librosa  
 ## 文件说明
-Speaker_Verification_Code 代码库
+Speaker_Verification_Code 代码库  
 声纹识别系统实现及验证课程实验内容.docx 实验指导  
 README.md 说明文件
 ## 环境配置
