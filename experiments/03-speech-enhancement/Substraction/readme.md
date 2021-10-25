@@ -8,7 +8,9 @@
 
 
 ### dataset 数据
---clean \
---mixture \ 
+--clean 
+
+--mixture
+
 --noise： 真实情况下不会给出噪声的数据  该文件仅供参考\
 应该根据mixture的音频去估计出噪声的音频
