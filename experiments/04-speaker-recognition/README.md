@@ -15,17 +15,17 @@ librosa
 Speaker_Verification_Code 代码库
 声纹识别系统实现及验证课程实验内容.docx 实验指导  
 README.md 说明文件
-### 环境配置
-# 虚拟环境安装与激活
+## 环境配置
+### 虚拟环境安装与激活
 ```
 conda create -n spkcls python=3.6
 conda activate spkcls
 ```
-# pytorch环境安装
+### pytorch环境安装
 ```
 conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.2 -c pytorch
 ```
-# python依赖包安装
+### python依赖包安装
 ```
 pip install pyyaml
 pip install soundfile
