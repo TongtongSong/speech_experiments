@@ -18,7 +18,7 @@ SDR的计算方法
 
 
 ### dataset 
---clean 干净的多通道音频
+--clean 干净的多通道音频\
   --clean_mul_20.wav 20代表声源产生的角度在麦克风的20°方向
   --clean_mul_170.wav
 --mixture  混合多通道音频
