@@ -1,0 +1,37 @@
+data:
+  train_manifest: files\split_train_set.txt
+  # ==========> code <===========
+  root: 
+  # ==========> code <===========
+  epoch: 11
+  feat_type: mfcc
+  rate: 16000
+  max_length: 100
+  n_fft: 512
+  num_bin: 26
+  energy: true
+  normalize: true
+  delta: false
+  num_cep: 23
+  win_len: 0.025
+  win_shift: 0.01
+
+test:
+  model_path: saved_model\000\xvector_gap_softmax_checkpoint.pth
+  test_manifest: files\test_set.txt
+  trials: files\trials.txt
+  # ==========> code <===========
+  root: 
+  # ==========> code <===========
+  epoch: 20
+  feat_type: mfcc
+  rate: 16000
+  max_length: 100
+  n_fft: 512
+  num_bin: 26
+  energy: true
+  normalize: true
+  delta: false
+  num_cep: 23
+  win_len: 0.025
+  win_shift: 0.01
