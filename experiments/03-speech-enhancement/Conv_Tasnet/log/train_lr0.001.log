@@ -1,0 +1,393 @@
+
+------------
+Epoch:0/500
+***batch_size=20***
+*** train from scratch ***
+use SI_SNR as loss function
+------------
+Epoch:0/500
+Train: SI_SNR=6.5268,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=12.6334,SNR=0.0000,Time:0 minutes
+2021-09-21 10:34:53
+***save checkpoint as Checkpoint_0000.pt***
+------------
+Epoch:1/500
+Train: SI_SNR=10.7324,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=14.3917,SNR=0.0000,Time:0 minutes
+2021-09-21 10:36:00
+***save checkpoint as Checkpoint_0001.pt***
+------------
+Epoch:2/500
+Train: SI_SNR=11.6780,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=14.7670,SNR=0.0000,Time:0 minutes
+2021-09-21 10:37:07
+***save checkpoint as Checkpoint_0002.pt***
+------------
+Epoch:3/500
+Train: SI_SNR=12.2126,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=14.8931,SNR=0.0000,Time:0 minutes
+2021-09-21 10:38:14
+***save checkpoint as Checkpoint_0003.pt***
+------------
+Epoch:4/500
+Train: SI_SNR=12.5384,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=15.5944,SNR=0.0000,Time:0 minutes
+2021-09-21 10:39:21
+***save checkpoint as Checkpoint_0004.pt***
+------------
+Epoch:5/500
+Train: SI_SNR=12.8240,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=15.7335,SNR=0.0000,Time:0 minutes
+2021-09-21 10:40:28
+***save checkpoint as Checkpoint_0005.pt***
+------------
+Epoch:6/500
+Train: SI_SNR=13.0372,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=15.8996,SNR=0.0000,Time:0 minutes
+2021-09-21 10:41:40
+***save checkpoint as Checkpoint_0006.pt***
+------------
+Epoch:7/500
+Train: SI_SNR=13.2427,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=16.2488,SNR=0.0000,Time:0 minutes
+2021-09-21 10:42:49
+***save checkpoint as Checkpoint_0007.pt***
+------------
+Epoch:8/500
+Train: SI_SNR=13.4222,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=16.8155,SNR=0.0000,Time:0 minutes
+2021-09-21 10:43:57
+***save checkpoint as Checkpoint_0008.pt***
+------------
+Epoch:9/500
+Train: SI_SNR=13.5851,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=16.7771,SNR=0.0000,Time:0 minutes
+2021-09-21 10:45:06
+------------
+Epoch:10/500
+Train: SI_SNR=13.7703,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=17.1579,SNR=0.0000,Time:0 minutes
+2021-09-21 10:46:14
+***save checkpoint as Checkpoint_0010.pt***
+------------
+Epoch:11/500
+Train: SI_SNR=13.9356,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=17.0245,SNR=0.0000,Time:0 minutes
+2021-09-21 10:47:22
+------------
+Epoch:12/500
+Train: SI_SNR=14.0883,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=17.1676,SNR=0.0000,Time:0 minutes
+2021-09-21 10:48:30
+***save checkpoint as Checkpoint_0012.pt***
+------------
+Epoch:13/500
+Train: SI_SNR=14.2645,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=17.3914,SNR=0.0000,Time:0 minutes
+2021-09-21 10:49:39
+***save checkpoint as Checkpoint_0013.pt***
+------------
+Epoch:14/500
+Train: SI_SNR=14.4058,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=17.3108,SNR=0.0000,Time:0 minutes
+2021-09-21 10:50:52
+------------
+Epoch:15/500
+Train: SI_SNR=14.5348,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=17.5166,SNR=0.0000,Time:0 minutes
+2021-09-21 10:51:59
+***save checkpoint as Checkpoint_0015.pt***
+------------
+Epoch:16/500
+Train: SI_SNR=14.6887,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=17.9014,SNR=0.0000,Time:0 minutes
+2021-09-21 10:53:08
+***save checkpoint as Checkpoint_0016.pt***
+------------
+Epoch:17/500
+Train: SI_SNR=14.8325,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=17.9290,SNR=0.0000,Time:0 minutes
+2021-09-21 10:54:17
+***save checkpoint as Checkpoint_0017.pt***
+------------
+Epoch:18/500
+Train: SI_SNR=14.9755,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=17.9694,SNR=0.0000,Time:0 minutes
+2021-09-21 10:55:26
+***save checkpoint as Checkpoint_0018.pt***
+------------
+Epoch:19/500
+Train: SI_SNR=15.1149,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=17.5728,SNR=0.0000,Time:0 minutes
+2021-09-21 10:56:35
+------------
+Epoch:20/500
+Train: SI_SNR=15.2417,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=18.0324,SNR=0.0000,Time:0 minutes
+2021-09-21 10:57:43
+***save checkpoint as Checkpoint_0020.pt***
+------------
+Epoch:21/500
+***batch_size=20***
+*** model Checkpoint_0020.pt has been successfully loaded! ***
+use SI_SNR as loss function
+------------
+Epoch:21/500
+Train: SI_SNR=15.4322,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=18.2875,SNR=0.0000,Time:0 minutes
+2021-09-21 11:06:24
+***save checkpoint as Checkpoint_0021.pt***
+------------
+Epoch:22/500
+Train: SI_SNR=15.5776,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=18.3991,SNR=0.0000,Time:0 minutes
+2021-09-21 11:07:32
+***save checkpoint as Checkpoint_0022.pt***
+------------
+Epoch:23/500
+Train: SI_SNR=15.7158,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=18.8101,SNR=0.0000,Time:0 minutes
+2021-09-21 11:08:40
+***save checkpoint as Checkpoint_0023.pt***
+------------
+Epoch:24/500
+Train: SI_SNR=15.8523,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=18.4191,SNR=0.0000,Time:0 minutes
+2021-09-21 11:09:52
+------------
+Epoch:25/500
+Train: SI_SNR=15.9513,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=18.6957,SNR=0.0000,Time:0 minutes
+2021-09-21 11:10:58
+------------
+Epoch:26/500
+Train: SI_SNR=16.0078,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=18.4868,SNR=0.0000,Time:0 minutes
+2021-09-21 11:12:05
+**learning rate is adjusted from [0.001000] to [0.000500]
+------------
+Epoch:27/500
+Train: SI_SNR=16.1305,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.1809,SNR=0.0000,Time:0 minutes
+2021-09-21 11:13:12
+***save checkpoint as Checkpoint_0027.pt***
+------------
+Epoch:28/500
+Train: SI_SNR=16.3730,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.3901,SNR=0.0000,Time:0 minutes
+2021-09-21 11:14:32
+***save checkpoint as Checkpoint_0028.pt***
+------------
+Epoch:29/500
+Train: SI_SNR=16.5200,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.4495,SNR=0.0000,Time:0 minutes
+2021-09-21 11:15:42
+***save checkpoint as Checkpoint_0029.pt***
+------------
+Epoch:30/500
+Train: SI_SNR=16.6392,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.4900,SNR=0.0000,Time:0 minutes
+2021-09-21 11:16:49
+***save checkpoint as Checkpoint_0030.pt***
+------------
+Epoch:31/500
+Train: SI_SNR=16.7433,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.4565,SNR=0.0000,Time:0 minutes
+2021-09-21 11:17:57
+------------
+Epoch:32/500
+Train: SI_SNR=16.8331,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.5396,SNR=0.0000,Time:0 minutes
+2021-09-21 11:19:03
+***save checkpoint as Checkpoint_0032.pt***
+------------
+Epoch:33/500
+Train: SI_SNR=16.9264,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.5256,SNR=0.0000,Time:0 minutes
+2021-09-21 11:20:11
+------------
+Epoch:34/500
+Train: SI_SNR=17.0032,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.4472,SNR=0.0000,Time:0 minutes
+2021-09-21 11:21:18
+------------
+Epoch:35/500
+Train: SI_SNR=17.0712,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.4155,SNR=0.0000,Time:0 minutes
+2021-09-21 11:22:24
+**learning rate is adjusted from [0.000500] to [0.000250]
+------------
+Epoch:36/500
+Train: SI_SNR=17.0227,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.6970,SNR=0.0000,Time:0 minutes
+2021-09-21 11:23:31
+***save checkpoint as Checkpoint_0036.pt***
+------------
+Epoch:37/500
+Train: SI_SNR=17.1102,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.7107,SNR=0.0000,Time:0 minutes
+2021-09-21 11:24:51
+***save checkpoint as Checkpoint_0037.pt***
+------------
+Epoch:38/500
+Train: SI_SNR=17.2153,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.7250,SNR=0.0000,Time:0 minutes
+2021-09-21 11:26:01
+***save checkpoint as Checkpoint_0038.pt***
+------------
+Epoch:39/500
+Train: SI_SNR=17.2967,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.7586,SNR=0.0000,Time:0 minutes
+2021-09-21 11:27:08
+***save checkpoint as Checkpoint_0039.pt***
+------------
+Epoch:40/500
+Train: SI_SNR=17.3597,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.7502,SNR=0.0000,Time:0 minutes
+2021-09-21 11:28:16
+------------
+Epoch:41/500
+Train: SI_SNR=17.4295,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.7620,SNR=0.0000,Time:0 minutes
+2021-09-21 11:29:22
+***save checkpoint as Checkpoint_0041.pt***
+------------
+Epoch:42/500
+Train: SI_SNR=17.4935,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.7452,SNR=0.0000,Time:0 minutes
+2021-09-21 11:30:29
+------------
+Epoch:43/500
+Train: SI_SNR=17.5524,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.7580,SNR=0.0000,Time:0 minutes
+2021-09-21 11:31:36
+------------
+Epoch:44/500
+Train: SI_SNR=17.6107,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.7372,SNR=0.0000,Time:0 minutes
+2021-09-21 11:32:42
+**learning rate is adjusted from [0.000250] to [0.000125]
+------------
+Epoch:45/500
+Train: SI_SNR=17.5762,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.7258,SNR=0.0000,Time:0 minutes
+2021-09-21 11:33:49
+**learning rate is adjusted from [0.000125] to [0.000063]
+------------
+Epoch:46/500
+Train: SI_SNR=17.6103,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.8244,SNR=0.0000,Time:0 minutes
+2021-09-21 11:34:56
+***save checkpoint as Checkpoint_0046.pt***
+------------
+Epoch:47/500
+Train: SI_SNR=17.6918,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.8082,SNR=0.0000,Time:0 minutes
+2021-09-21 11:36:04
+------------
+Epoch:48/500
+Train: SI_SNR=17.7335,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.8153,SNR=0.0000,Time:0 minutes
+2021-09-21 11:37:10
+------------
+Epoch:49/500
+Train: SI_SNR=17.7688,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.8024,SNR=0.0000,Time:0 minutes
+2021-09-21 11:38:17
+**learning rate is adjusted from [0.000063] to [0.000031]
+------------
+Epoch:50/500
+Train: SI_SNR=17.7921,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.8267,SNR=0.0000,Time:0 minutes
+2021-09-21 11:39:23
+***save checkpoint as Checkpoint_0050.pt***
+------------
+Epoch:51/500
+Train: SI_SNR=17.8278,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.8204,SNR=0.0000,Time:0 minutes
+2021-09-21 11:40:31
+------------
+Epoch:52/500
+Train: SI_SNR=17.8477,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.8171,SNR=0.0000,Time:0 minutes
+2021-09-21 11:41:38
+------------
+Epoch:53/500
+Train: SI_SNR=17.8649,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.8129,SNR=0.0000,Time:0 minutes
+2021-09-21 11:42:45
+**learning rate is adjusted from [0.000031] to [0.000016]
+------------
+Epoch:54/500
+Train: SI_SNR=17.8830,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.8336,SNR=0.0000,Time:0 minutes
+2021-09-21 11:43:52
+***save checkpoint as Checkpoint_0054.pt***
+------------
+Epoch:55/500
+Train: SI_SNR=17.9000,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.8342,SNR=0.0000,Time:0 minutes
+2021-09-21 11:44:59
+***save checkpoint as Checkpoint_0055.pt***
+------------
+Epoch:56/500
+Train: SI_SNR=17.9098,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.8322,SNR=0.0000,Time:0 minutes
+2021-09-21 11:46:08
+------------
+Epoch:57/500
+Train: SI_SNR=17.9186,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.8300,SNR=0.0000,Time:0 minutes
+2021-09-21 11:47:14
+------------
+Epoch:58/500
+Train: SI_SNR=17.9269,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.8276,SNR=0.0000,Time:0 minutes
+2021-09-21 11:48:20
+**learning rate is adjusted from [0.000016] to [0.000008]
+------------
+Epoch:59/500
+Train: SI_SNR=17.9381,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.8360,SNR=0.0000,Time:0 minutes
+2021-09-21 11:49:27
+***save checkpoint as Checkpoint_0059.pt***
+------------
+Epoch:60/500
+Train: SI_SNR=17.9459,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.8363,SNR=0.0000,Time:0 minutes
+2021-09-21 11:50:34
+***save checkpoint as Checkpoint_0060.pt***
+------------
+Epoch:61/500
+Train: SI_SNR=17.9509,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.8356,SNR=0.0000,Time:0 minutes
+2021-09-21 11:51:41
+------------
+Epoch:62/500
+Train: SI_SNR=17.9554,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.8344,SNR=0.0000,Time:0 minutes
+2021-09-21 11:52:48
+------------
+Epoch:63/500
+Train: SI_SNR=17.9597,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.8331,SNR=0.0000,Time:0 minutes
+2021-09-21 11:53:58
+**learning rate is adjusted from [0.000008] to [0.000004]
+------------
+Epoch:64/500
+Train: SI_SNR=17.9672,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.8235,SNR=0.0000,Time:0 minutes
+2021-09-21 11:55:07
+**learning rate is adjusted from [0.000004] to [0.000002]
+------------
+Epoch:65/500
+Train: SI_SNR=17.9734,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.8161,SNR=0.0000,Time:0 minutes
+2021-09-21 11:56:13
+**learning rate is adjusted from [0.000002] to [0.000001]
+------------
+Epoch:66/500
+Train: SI_SNR=17.9773,SNR=0.0000,Time:1 minutes
+Val: SI_SNR=19.8130,SNR=0.0000,Time:0 minutes
+2021-09-21 11:57:19
+No improvement for 6 epoches in val dataset, early stop
