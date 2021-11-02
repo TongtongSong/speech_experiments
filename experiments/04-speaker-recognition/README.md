@@ -15,6 +15,9 @@ librosa
 Speaker_Verification_Code 代码库  
 声纹识别系统实现及验证课程实验内容.docx 实验指导  
 README.md 说明文件
+## 实验数据
+AIShell(http://www.openslr.org/33/)子集  
+下载地址(https://pan.baidu.com/s/1ucjXgTnnvMmsRMPa9X0XMQ) 提取码：duqp
 ## 环境配置
 ### 虚拟环境安装与激活
 ```
@@ -32,6 +35,8 @@ pip install soundfile
 pip install python_speech_features
 pip install scipy
 pip install librosa
+pip install pandas
+pip install matplotlib
 ```
 
 ## 参考
