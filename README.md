@@ -1,2 +1,2 @@
 # speech_experiments
-some speech experiments for the study
+some speech experiments for study
