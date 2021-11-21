@@ -1,3 +1,4 @@
+from posix import ST_SYNCHRONOUS
 from mir_eval.separation import bss_eval_sources
 
 # SDR 公式
@@ -10,7 +11,11 @@ def cal_sdr(source, estimate_source):
     C: channel 
     T: length
     '''
-    assert source.shape == estimate_source.shape  # 保证两个音频维度相同
+    # assert source.shape == estimate_source.shape  # 保证两个音频维度相同
+    if source.shape!=estimate_source.shape:
+        min_len = min(source.shape[2],estimate_source.shape[2])
+        source = source[:,:,0:min_len]
+        estimate_source = estimate_source[:,:,0:min_len]
     SDR = 0.
     batch_size = source.shape[0]
     for batch in range(batch_size):
@@ -32,8 +37,10 @@ if __name__ == '__main__':
     clean_data = clean_data.reshape(1, 1, clean_data.shape[0])
     mixture_data, _ = lb.load(mixture)
     mixture_data = mixture_data.reshape(1, 1, mixture_data.shape[0])
-    estimate_data, _ = lb.load(mixture)
+    estimate_data, _ = lb.load(estimate)
     estimate_data = estimate_data.reshape(1, 1, estimate_data.shape[0])
+
+
 
     SDR1 = cal_sdr(clean_data, mixture_data)  # 第一个参数应该是干净的语音  第二个参数是mix或者预测的语音
     print('增强前：', SDR1)
